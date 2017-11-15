@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.author             = { "李龙飞" => "1550246667@qq.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/CocoaGrylls/LYFCommonFoundation.git", :tag => "#{s.version}" }
-  s.source_files  = "LYFCommonFoundation", "LYFCommonFoundation/Class/*.{h,m}"
+  s.source_files  = "LYFCommonFoundation", "LYFCommonFoundation/*/*.{h,m}"
 
   s.dependency "SDWebImage"
 
